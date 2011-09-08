@@ -4,7 +4,7 @@ use warnings;
 
 package Dist::Zilla::Plugin::UnusedVarsTests;
 # ABSTRACT: (DEPRECATED) Release tests for unused variables
-our $VERSION = 'v2.0.0'; # VERSION
+our $VERSION = '2.0.1'; # VERSION
 use Moose;
 use namespace::autoclean;
 extends 'Dist::Zilla::Plugin::Test::UnusedVars';
@@ -29,7 +29,7 @@ Dist::Zilla::Plugin::UnusedVarsTests - (DEPRECATED) Release tests for unused var
 
 =head1 VERSION
 
-version v2.0.0
+version 2.0.1
 
 =head1 SYNOPSIS
 
@@ -43,6 +43,8 @@ In C<dist.ini>:
 __END__
 
 =head1 AVAILABILITY
+
+The project homepage is L<http://metacpan.org/release/Dist-Zilla-Plugin-Test-UnusedVars/>.
 
 The latest version of this module is available from the Comprehensive Perl
 Archive Network (CPAN). Visit L<http://www.perl.com/CPAN/> to find a CPAN

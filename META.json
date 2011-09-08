@@ -60,12 +60,13 @@
       "bugtracker" : {
          "web" : "https://github.com/doherty/Dist-Zilla-Plugin-Test-UnusedVars/issues"
       },
+      "homepage" : "http://metacpan.org/release/Dist-Zilla-Plugin-Test-UnusedVars/",
       "repository" : {
          "type" : "git",
          "url" : "git://github.com/doherty/Dist-Zilla-Plugin-Test-UnusedVars.git",
          "web" : "https://github.com/doherty/Dist-Zilla-Plugin-Test-UnusedVars"
       }
    },
-   "version" : "v2.0.0"
+   "version" : "2.0.1"
 }
 
