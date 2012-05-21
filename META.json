@@ -5,7 +5,7 @@
       "Mike Doherty <doherty@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300000, CPAN::Meta::Converter version 2.112150",
+   "generated_by" : "Dist::Zilla version 4.300012, CPAN::Meta::Converter version 2.120900",
    "license" : [
       "perl_5"
    ],
@@ -33,25 +33,26 @@
       },
       "runtime" : {
          "requires" : {
-            "Dist::Zilla::Plugin::InlineFiles" : 0,
-            "Moose" : 0,
-            "Test::Vars" : 0,
-            "namespace::autoclean" : 0,
+            "Dist::Zilla" : "4",
+            "Dist::Zilla::Plugin::InlineFiles" : "0",
+            "Moose" : "0",
+            "Test::Vars" : "0",
+            "namespace::autoclean" : "0",
             "perl" : "5.008",
-            "strict" : 0,
-            "warnings" : 0
+            "strict" : "0",
+            "warnings" : "0"
          }
       },
       "test" : {
          "requires" : {
-            "File::Find" : 0,
-            "File::Path" : 0,
-            "File::Temp" : 0,
-            "Moose::Autobox" : 0,
-            "Test::DZil" : 0,
+            "File::Find" : "0",
+            "File::Path" : "0",
+            "File::Temp" : "0",
+            "Moose::Autobox" : "0",
+            "Test::DZil" : "0",
             "Test::More" : "0.96",
-            "Test::Output" : 0,
-            "autodie" : 0
+            "Test::Output" : "0",
+            "autodie" : "0"
          }
       }
    },
@@ -67,6 +68,6 @@
          "web" : "https://github.com/doherty/Dist-Zilla-Plugin-Test-UnusedVars"
       }
    },
-   "version" : "2.0.1"
+   "version" : "v2.0.2"
 }
 

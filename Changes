@@ -1,5 +1,9 @@
 Revision history for Perl extension Dist-Zilla-Plugin-Test-UnusedVars
 
+v2.0.2    2012-05-21
+    - Declare Dist::Zilla dependency
+    - Use a strict version number [dolmen, GH #2]
+
 2.0.1     2011-09-07
     - Packaging updates
 

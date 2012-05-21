@@ -4,7 +4,7 @@ use warnings;
 
 package Dist::Zilla::Plugin::Test::UnusedVars;
 # ABSTRACT: Release tests for unused variables
-our $VERSION = '2.0.1'; # VERSION
+our $VERSION = 'v2.0.2'; # VERSION
 use Moose;
 extends 'Dist::Zilla::Plugin::InlineFiles';
 
@@ -25,7 +25,7 @@ Dist::Zilla::Plugin::Test::UnusedVars - Release tests for unused variables
 
 =head1 VERSION
 
-version 2.0.1
+version v2.0.2
 
 =head1 SYNOPSIS
 
@@ -49,12 +49,7 @@ The project homepage is L<http://metacpan.org/release/Dist-Zilla-Plugin-Test-Unu
 
 The latest version of this module is available from the Comprehensive Perl
 Archive Network (CPAN). Visit L<http://www.perl.com/CPAN/> to find a CPAN
-site near you, or see L<http://search.cpan.org/dist/Dist-Zilla-Plugin-Test-UnusedVars/>.
-
-The development version lives at L<http://github.com/doherty/Dist-Zilla-Plugin-Test-UnusedVars>
-and may be cloned from L<git://github.com/doherty/Dist-Zilla-Plugin-Test-UnusedVars.git>.
-Instead of sending patches, please fork this project using the standard
-git and github infrastructure.
+site near you, or see L<https://metacpan.org/module/Dist::Zilla::Plugin::Test::UnusedVars/>.
 
 =head1 SOURCE
 
@@ -63,10 +58,8 @@ and may be cloned from L<git://github.com/doherty/Dist-Zilla-Plugin-Test-UnusedV
 
 =head1 BUGS AND LIMITATIONS
 
-No bugs have been reported.
-
-Please report any bugs or feature requests through the web interface at
-L<https://github.com/doherty/Dist-Zilla-Plugin-Test-UnusedVars/issues>.
+You can make new bug reports, and view existing ones, through the
+web interface at L<https://github.com/doherty/Dist-Zilla-Plugin-Test-UnusedVars/issues>.
 
 =head1 AUTHORS
 
