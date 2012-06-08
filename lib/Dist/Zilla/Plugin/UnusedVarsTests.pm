@@ -4,7 +4,7 @@ use warnings;
 
 package Dist::Zilla::Plugin::UnusedVarsTests;
 # ABSTRACT: (DEPRECATED) Release tests for unused variables
-our $VERSION = 'v2.0.2'; # VERSION
+our $VERSION = '2.000003'; # VERSION
 use Moose;
 use namespace::autoclean;
 extends 'Dist::Zilla::Plugin::Test::UnusedVars';
@@ -29,7 +29,7 @@ Dist::Zilla::Plugin::UnusedVarsTests - (DEPRECATED) Release tests for unused var
 
 =head1 VERSION
 
-version v2.0.2
+version 2.000003
 
 =head1 SYNOPSIS
 

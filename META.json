@@ -5,7 +5,7 @@
       "Mike Doherty <doherty@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300012, CPAN::Meta::Converter version 2.120900",
+   "generated_by" : "Dist::Zilla version 4.300017, CPAN::Meta::Converter version 2.120630",
    "license" : [
       "perl_5"
    ],
@@ -68,6 +68,6 @@
          "web" : "https://github.com/doherty/Dist-Zilla-Plugin-Test-UnusedVars"
       }
    },
-   "version" : "v2.0.2"
+   "version" : "2.000003"
 }
 
