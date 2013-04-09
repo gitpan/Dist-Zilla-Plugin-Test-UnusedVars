@@ -14,10 +14,9 @@ build_requires:
   Test::Output: 0
   autodie: 0
 configure_requires:
-  ExtUtils::MakeMaker: 6.30
   Module::Build: 0.3601
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300017, CPAN::Meta::Converter version 2.120630'
+generated_by: 'Dist::Zilla version 4.300032, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -26,6 +25,8 @@ name: Dist-Zilla-Plugin-Test-UnusedVars
 no_index:
   directory:
     - corpus
+    - inc
+    - examples
 requires:
   Dist::Zilla: 4
   Dist::Zilla::Plugin::InlineFiles: 0
@@ -39,4 +40,4 @@ resources:
   bugtracker: https://github.com/doherty/Dist-Zilla-Plugin-Test-UnusedVars/issues
   homepage: http://metacpan.org/release/Dist-Zilla-Plugin-Test-UnusedVars/
   repository: git://github.com/doherty/Dist-Zilla-Plugin-Test-UnusedVars.git
-version: 2.000003
+version: 2.000004

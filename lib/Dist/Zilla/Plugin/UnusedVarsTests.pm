@@ -4,7 +4,7 @@ use warnings;
 
 package Dist::Zilla::Plugin::UnusedVarsTests;
 # ABSTRACT: (DEPRECATED) Release tests for unused variables
-our $VERSION = '2.000003'; # VERSION
+our $VERSION = '2.000004'; # VERSION
 use Moose;
 use namespace::autoclean;
 extends 'Dist::Zilla::Plugin::Test::UnusedVars';
@@ -17,8 +17,8 @@ __PACKAGE__->meta->make_immutable;
 no Moose;
 1;
 
-
 __END__
+
 =pod
 
 =encoding utf-8
@@ -29,7 +29,7 @@ Dist::Zilla::Plugin::UnusedVarsTests - (DEPRECATED) Release tests for unused var
 
 =head1 VERSION
 
-version 2.000003
+version 2.000004
 
 =head1 SYNOPSIS
 
@@ -82,4 +82,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
