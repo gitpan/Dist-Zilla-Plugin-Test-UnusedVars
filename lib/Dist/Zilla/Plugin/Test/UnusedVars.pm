@@ -4,7 +4,7 @@ use warnings;
 
 package Dist::Zilla::Plugin::Test::UnusedVars;
 # ABSTRACT: Release tests for unused variables
-our $VERSION = '2.000004'; # VERSION
+our $VERSION = '2.000005'; # VERSION
 use Moose;
 extends 'Dist::Zilla::Plugin::InlineFiles';
 
@@ -22,7 +22,7 @@ Dist::Zilla::Plugin::Test::UnusedVars - Release tests for unused variables
 
 =head1 VERSION
 
-version 2.000004
+version 2.000005
 
 =head1 SYNOPSIS
 
